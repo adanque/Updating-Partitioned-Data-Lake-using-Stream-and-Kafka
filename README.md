@@ -47,7 +47,7 @@ Replicating data onto data lakes accurately and timely over distances using Kafk
 
 | File Name  | Description |
 | ------ | ------ |
-| stream_data.py | Sentence tokenization and punctuation removal |
-| stream_data_consumer.py | NGram tokenization |
-| stream_data_producer.py | One hot encode for vectorization from numerical vector |
+| stream_data.py | Load parquet partitioned data with timestamp |
+| stream_data_consumer.py | Pub sub Consumer queue topic watcher |
+| stream_data_producer.py | Loads partitioned parquet data changes on time factors |
 
